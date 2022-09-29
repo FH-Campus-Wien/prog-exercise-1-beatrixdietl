@@ -21,7 +21,7 @@ public class App {
         System.out.println("        \\ }{ /\\ )_ / _\\ ");
         System.out.println("       /\\__/\\ \\__O (__");
         System.out.println("      (--/\\--)    \\__/");
-        System.out.println("       _)( )(_");
+        System.out.println("      _)(  )(_");
         System.out.println("      `---''---`");
 
 
