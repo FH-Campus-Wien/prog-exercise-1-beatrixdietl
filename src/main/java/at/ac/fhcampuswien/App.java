@@ -35,6 +35,11 @@ public class App {
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+        Scanner scan2 = new Scanner(System.in);
+        System.out.println(scan);
+        System.out.println(scan2);
+        System.out.println(scan+scan2);
     }
 
     //todo Task 5
