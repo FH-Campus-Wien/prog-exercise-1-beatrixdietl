@@ -60,12 +60,13 @@ public class App {
     public void swapTwoNumbers(){
         // input your solution here
         Scanner scan = new Scanner(System.in);
-        System.out.println("Before Swap:");
-        int x = scan.nextInt();
-        System.out.println("x: ");
 
-        int y = scan.nextInt();
+        System.out.println("Before Swap:");
+        System.out.println("x: ");
+        int x = scan.nextInt();
+
         System.out.println("y: ");
+        int y = scan.nextInt();
 
         x = x * y;
         y = x / y;
