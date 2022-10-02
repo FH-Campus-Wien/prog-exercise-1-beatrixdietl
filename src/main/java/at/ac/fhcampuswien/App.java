@@ -137,6 +137,7 @@ public class App {
             System.out.println("Excellent Sales Revenue");
         }
         // different requirements (as 'if'-loops) for the different sales revenue classes
+
     }
 
     //todo Task 8
