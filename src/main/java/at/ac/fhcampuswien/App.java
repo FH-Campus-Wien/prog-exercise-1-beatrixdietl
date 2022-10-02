@@ -184,17 +184,13 @@ public class App {
     //todo Task 9
     public void leapyear(){
         // input your solution here
-        //- Ein Jahr ist ein Schaltjahr, wenn es sich restlos durch 4 teilen lässt. (Sonst nicht.)
-        //- Ein Jahr ist kein Schaltjahr, wenn es sich restlos durch 100 teilen lässt (und nicht restlos durch 400
-        //teilbar).
-        //- Ein Jahr ist ein Schaltjahr, wenn es sich restlos durch 400 teilen lässt.
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Year: ");
         int year = scan.nextInt();
         System.lineSeparator();
 
-        if (year % 4 != 0 && year % 100 == 0 && year % 400 != 0) {
+        if (year % 4 != 0 || year % 100 == 0 && year % 400 != 0) {
             System.out.println("Not a Leapyear");
         } else {
             System.out.println("Leapyear");
