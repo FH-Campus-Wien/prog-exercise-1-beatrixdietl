@@ -103,14 +103,40 @@ public class App {
             System.out.println("n1 == n2");
         }
 
-
-
-
     }
 
     //todo Task 7
     public void ratingSalesPerson(){
         // input your solution here
+
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter annual Revenue: ");
+        int a = scan.nextInt();
+        System.lineSeparator();
+        // input for annual revenue
+
+        if (a < 0 || a > 100000) {
+            System.out.println("Invalid Revenue");
+        }
+
+        if (0 <= a < 20000) {
+            System.out.println("Poor Sales Revenue");
+        }
+
+        if (20000 <= a < 50000) {
+            System.out.println("Average Sales Revenue");
+        }
+
+        if (50000 <= a < 80000) {
+            System.out.println("Good Sales Revenue");
+        }
+
+        if (80000 <= a < 100000) {
+            System.out.println("Excellent Sales Revenue");
+        }
+        // different requirements (as 'if'-loops) for the different sales revenue classes
     }
 
     //todo Task 8
