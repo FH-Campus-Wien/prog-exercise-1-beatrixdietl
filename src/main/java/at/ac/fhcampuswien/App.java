@@ -201,6 +201,19 @@ public class App {
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Number: ");
+        int number = scan.nextInt();
+        System.lineSeparator();
+
+        int a = number / 100;
+        int b = number / 10 % 10;
+        int c = number % 10;
+
+        number = a + 10 * b + 100 * c;
+
+        System.out.println(number);
 
 
     }
