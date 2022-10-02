@@ -41,12 +41,18 @@ public class App {
         int sum = n2 + n3 + (int) n1 + (int) n4 + (int) n5 + (int) n6 + (int) n7 + (int) n8;
 
         System.out.println(sum);
-
     }
 
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+
+        int sum = a + b;
+
+        System.out.println(sum);
 
     }
 
