@@ -83,11 +83,25 @@ public class App {
     public void compareTwoNumbers(){
         // input your solution here
         Scanner scan = new Scanner(System.in);
-        int n1 = scan.nextInt();
-        int n2 = scan.nextInt();
 
-        System.out.println("n1::" + n1);
-        System.out.println("n2:" + n2);
+        System.out.print("n1: ");
+        int n1 = scan.nextInt();
+        System.lineSeparator();
+
+        System.out.print("n2: ");
+        int n2 = scan.nextInt();
+        System.lineSeparator();
+
+        if (n1 > n2) {
+           System.out.println("n1 > n2");
+        }
+
+        if (n2 > n1) {
+            System.out.println("n2 > n1");
+        }
+        if (n1 == n2) {
+            System.out.println("n1 == n2");
+        }
 
 
 
