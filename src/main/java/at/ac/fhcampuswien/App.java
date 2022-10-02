@@ -29,7 +29,6 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
-        int sum;
         char n1 = 'Z';
         int n2 = 0xface;
         int n3 = 012;
@@ -39,7 +38,9 @@ public class App {
         double n7 = 8.88e1;
         double n8 = 99.9;
 
-        sum = (int) (n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8);
+        int sum = n2 + n3 + (int) n1 + (int) n4 + (int) n5 + (int) n6 + (int) n7 + (int) n8;
+
+        System.out.println(sum);
 
     }
 
