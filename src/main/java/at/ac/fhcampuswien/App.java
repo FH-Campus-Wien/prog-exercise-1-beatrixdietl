@@ -60,7 +60,7 @@ public class App {
     public void swapTwoNumbers(){
         // input your solution here
         Scanner scan = new Scanner(System.in);
-        System.out.println("Before swap:");
+        System.out.println("Before Swap:");
         int x = scan.nextInt();
         System.out.println("x:" + x);
 
@@ -71,7 +71,7 @@ public class App {
         y = x / y;
         x = x / y;
 
-        System.out.println("After swap:");
+        System.out.println("After Swap:");
         System.out.println("x:" + x);
         System.out.println("y:" + y);
     }
