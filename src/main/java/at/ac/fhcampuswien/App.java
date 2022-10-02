@@ -62,18 +62,18 @@ public class App {
         Scanner scan = new Scanner(System.in);
         System.out.println("Before Swap:");
         int x = scan.nextInt();
-        System.out.println("x:" + x);
+        System.out.println("x: " + x);
 
         int y = scan.nextInt();
-        System.out.println("y:" + y);
+        System.out.println("y: " + y);
 
         x = x * y;
         y = x / y;
         x = x / y;
 
         System.out.println("After Swap:");
-        System.out.println("x:" + x);
-        System.out.println("y:" + y);
+        System.out.println("x: " + x);
+        System.out.println("y: " + y);
     }
 
     //todo Task 6
