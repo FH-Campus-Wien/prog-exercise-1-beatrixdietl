@@ -59,6 +59,21 @@ public class App {
     //todo Task 5
     public void swapTwoNumbers(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        int y = scan.nextInt();
+
+        System.out.println("Before swap:");
+        System.out.println("x:" + x);
+        System.out.println("y:" + y);
+
+        x = x * y;
+        y = x / y;
+        x = x / y;
+
+        System.out.println("After swap:");
+        System.out.println("x:" + x);
+        System.out.println("y:" + y);
     }
 
     //todo Task 6
