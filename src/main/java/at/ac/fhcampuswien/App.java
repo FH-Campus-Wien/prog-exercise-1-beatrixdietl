@@ -62,10 +62,10 @@ public class App {
         Scanner scan = new Scanner(System.in);
         System.out.println("Before Swap:");
         int x = scan.nextInt();
-        System.out.println("x: " + x);
+        System.out.println("x: ");
 
         int y = scan.nextInt();
-        System.out.println("y: " + y);
+        System.out.println("y: ");
 
         x = x * y;
         y = x / y;
