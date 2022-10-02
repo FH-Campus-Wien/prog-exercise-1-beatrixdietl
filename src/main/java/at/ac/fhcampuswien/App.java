@@ -9,6 +9,7 @@ public class App {
         // input your solution here
         System.out.println("Hello World!");
     }
+    // Console Output "Hello World!"
 
     //todo Task 2
     public void helloRobot(){
@@ -25,6 +26,9 @@ public class App {
         System.out.println("     `---''---`");
 
     }
+    // Several Console Outputs, which contain the image of a roboter;
+    // Backslashes need to be written twice, so it comes out as one Backslash
+
 
     //todo Task 3
     public void sumOfLiterals(){
@@ -37,10 +41,13 @@ public class App {
         float n6 = 5.5f;
         double n7 = 8.88e1;
         double n8 = 99.9;
+        // the different Literals as char, int, long, float and double
 
         int sum = n2 + n3 + (int) n1 + (int) n4 + (int) n5 + (int) n6 + (int) n7 + (int) n8;
+        // the sum (as int) created by adding the int values of each literal
 
         System.out.println(sum);
+        // Console output of the sum
     }
 
     //todo Task 4
@@ -49,11 +56,13 @@ public class App {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
+        // Console Input for two numbers (a & b)
 
         int sum = a + b;
+        // sum of the two Console input numbers (a & b)
 
         System.out.println(sum);
-
+        // Console output of the sum
     }
 
     //todo Task 5
@@ -70,13 +79,17 @@ public class App {
         int y = scan.nextInt();
         System.lineSeparator();
 
-        x = x * y;
-        y = x / y;
-        x = x / y;
+        // Console Output "Before Swap:", "x:", and the console input value for x
+        // "y:" and the console input for y
+
+        x = x * y; // multiplying x and y to generate the new x value
+        y = x / y; // dividing the y value from the new x value, so y is now the old x value
+        x = x / y; // dividing the new y value (old x value) from the product of x * y, so x has the old y value
 
         System.out.println("After Swap:");
         System.out.println("x: " + x);
         System.out.println("y: " + y);
+        // Console output for the x & y value after the swap
     }
 
     //todo Task 6
@@ -143,6 +156,29 @@ public class App {
     //todo Task 8
     public void getCommissionRate(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+
+        double provision;
+
+        System.out.print("Enter CommissionClass: ");
+        int comclass = scan.nextInt();
+
+        String comclassString;
+        switch (comclass) {
+            case 1: provision = 0.01;
+            break;
+            case 2: provision = 0.02;
+            break;
+            case 3: provision = 0.03;
+            break;
+            case 4: provision = 0.04;
+            break;
+            default: provision = 0;
+        }
+
+        System.out.print("Your Commission Rate was set to " + provision);
+        System.lineSeparator();
+
     }
 
     //todo Task 9
