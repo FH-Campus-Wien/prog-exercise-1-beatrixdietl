@@ -29,6 +29,18 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+        int sum;
+        char n1 = 'Z';
+        int n2 = 0xface;
+        int n3 = 012;
+        long n4 = 80L;
+        float n5 = 44e-1f;
+        float n6 = 5.5f;
+        double n7 = 8.88e1;
+        double n8 = 99.9;
+
+        sum = (int) (n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8);
+
 
     }
 
