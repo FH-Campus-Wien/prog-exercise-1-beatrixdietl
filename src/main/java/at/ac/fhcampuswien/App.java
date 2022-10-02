@@ -173,7 +173,8 @@ public class App {
             break;
             case 4: provision = 0.04;
             break;
-            default: provision = 0.0;
+            default: provision = 0.00;
+            break;
         }
 
         System.out.print("Your Commission Rate was set to " + provision);
