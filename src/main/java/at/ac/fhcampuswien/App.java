@@ -117,7 +117,7 @@ public class App {
         System.lineSeparator();
         // input for annual revenue
 
-        if (a < 0 || a > 100000) {
+        if (a < 0 || a >= 100000) {
             System.out.println("Invalid Revenue");
         }
 
