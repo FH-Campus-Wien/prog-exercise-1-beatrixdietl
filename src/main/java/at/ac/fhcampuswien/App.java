@@ -213,7 +213,7 @@ public class App {
 
         number = a + 10 * b + 100 * c;
 
-        System.out.println("Number: " + number);
+        System.out.println(number);
 
     }
 
