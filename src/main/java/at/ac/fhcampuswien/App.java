@@ -188,20 +188,16 @@ public class App {
         //- Ein Jahr ist kein Schaltjahr, wenn es sich restlos durch 100 teilen lässt (und nicht restlos durch 400
         //teilbar).
         //- Ein Jahr ist ein Schaltjahr, wenn es sich restlos durch 400 teilen lässt.
-        //Year: 1980
-        //Leapyear
-        //Year: 1900
-        //Not a Leapyear
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Year: ");
         int year = scan.nextInt();
         System.lineSeparator();
 
-        if (year % 4 == 0 && year % 100 != 0) {
-            System.out.println("Leapyear");
-        } else {
+        if (year % 4 != 0 && year % 100 == 0 && year % 400 != 0) {
             System.out.println("Not a Leapyear");
+        } else {
+            System.out.println("Leapyear");
         }
 
     }
@@ -209,6 +205,8 @@ public class App {
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
+
+
     }
 
 
