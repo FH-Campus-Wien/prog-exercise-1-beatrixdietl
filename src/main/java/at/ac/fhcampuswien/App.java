@@ -121,19 +121,19 @@ public class App {
             System.out.println("Invalid Revenue");
         }
 
-        if (0 <= a < 20000) {
+        if (0 <= a && a < 20000) {
             System.out.println("Poor Sales Revenue");
         }
 
-        if (20000 <= a < 50000) {
+        if (20000 <= a && a < 50000) {
             System.out.println("Average Sales Revenue");
         }
 
-        if (50000 <= a < 80000) {
+        if (50000 <= a && a < 80000) {
             System.out.println("Good Sales Revenue");
         }
 
-        if (80000 <= a < 100000) {
+        if (80000 <= a && a < 100000) {
             System.out.println("Excellent Sales Revenue");
         }
         // different requirements (as 'if'-loops) for the different sales revenue classes
