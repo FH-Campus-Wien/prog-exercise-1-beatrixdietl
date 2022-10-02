@@ -24,7 +24,6 @@ public class App {
         System.out.println("      _)(  )(_");
         System.out.println("      `---''---`");
 
-
     }
 
     //todo Task 3
