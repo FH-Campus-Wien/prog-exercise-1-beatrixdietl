@@ -60,11 +60,11 @@ public class App {
     public void swapTwoNumbers(){
         // input your solution here
         Scanner scan = new Scanner(System.in);
-        int x = scan.nextInt();
-        int y = scan.nextInt();
-
         System.out.println("Before swap:");
+        int x = scan.nextInt();
         System.out.println("x:" + x);
+
+        int y = scan.nextInt();
         System.out.println("y:" + y);
 
         x = x * y;
@@ -79,6 +79,16 @@ public class App {
     //todo Task 6
     public void compareTwoNumbers(){
         // input your solution here
+        Scanner scan = new Scanner(System.in);
+        int n1 = scan.nextInt();
+        int n2 = scan.nextInt();
+
+        System.out.println("n1::" + n1);
+        System.out.println("n2:" + n2);
+
+
+
+
     }
 
     //todo Task 7
