@@ -17,7 +17,7 @@ public class App {
         System.out.println("         __");
         System.out.println(" _(\\    |@@|");
         System.out.println("(__/\\__ \\--/ __");
-        System.out.println("   \\___|----|   |  __");
+        System.out.println("   \\___|----|  |   __");
         System.out.println("       \\ }{ /\\ )_ / _\\ ");
         System.out.println("       /\\__/\\ \\__O (__");
         System.out.println("      (--/\\--)    \\__/");
@@ -36,13 +36,7 @@ public class App {
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
-        Scanner scan = new Scanner(System.in);
-        Scanner scan2 = new Scanner(System.in);
 
-        int add =
-        System.out.println(scan);
-        System.out.println(scan2);
-        System.out.println(add);
     }
 
     //todo Task 5
