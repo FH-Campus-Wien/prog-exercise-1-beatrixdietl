@@ -174,17 +174,36 @@ public class App {
             case 4: provision = 0.04;
             break;
             default: provision = 0.00;
-            break;
         }
 
-        System.out.print("Your Commission Rate was set to " + provision);
-        System.lineSeparator();
+        System.out.println("Your Commission Rate was set to " + provision);
+        // System.lineSeparator();
 
     }
 
     //todo Task 9
     public void leapyear(){
         // input your solution here
+        //- Ein Jahr ist ein Schaltjahr, wenn es sich restlos durch 4 teilen lässt. (Sonst nicht.)
+        //- Ein Jahr ist kein Schaltjahr, wenn es sich restlos durch 100 teilen lässt (und nicht restlos durch 400
+        //teilbar).
+        //- Ein Jahr ist ein Schaltjahr, wenn es sich restlos durch 400 teilen lässt.
+        //Year: 1980
+        //Leapyear
+        //Year: 1900
+        //Not a Leapyear
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Year: ");
+        int year = scan.nextInt();
+        System.lineSeparator();
+
+        if (year % 4 == 0 && year % 100 != 0) {
+            System.out.println("Leapyear");
+        } else {
+            System.out.println("Not a Leapyear");
+        }
+
     }
 
     //todo Task 10
