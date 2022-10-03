@@ -105,6 +105,8 @@ public class App {
         int n2 = scan.nextInt();
         System.lineSeparator();
 
+        // Console Output & Input for two numbers (n1 & n2)
+
         if (n1 > n2) {
            System.out.println("n1 > n2");
         }
@@ -115,6 +117,9 @@ public class App {
         if (n1 == n2) {
             System.out.println("n1 == n2");
         }
+
+        // Three if loops for comparing the numbers (if n1 is bigger than n2, if n2 is bigger than n1,
+        // or if n1 and n2 are the same value
 
     }
 
@@ -159,9 +164,13 @@ public class App {
         Scanner scan = new Scanner(System.in);
 
         double provision;
+        // creating double datatype for provision
 
         System.out.print("Enter CommissionClass: ");
         int comclass = scan.nextInt();
+
+        // Console Output and input for the CommissionClass
+
 
         String comclassString;
         switch (comclass) {
@@ -176,8 +185,11 @@ public class App {
             default: provision = 0.00;
         }
 
+        // switch statement containing 4 + one default case, which defines the provision
+
         System.out.println("Your Commission Rate was set to " + provision);
-        // System.lineSeparator();
+
+        // Console output for the set commission rate and provision value
 
     }
 
@@ -196,6 +208,11 @@ public class App {
             System.out.println("Leapyear");
         }
 
+        // if-loop for years that are no leapyear;
+        // conditions are: year must not be divisible by 4 with no residual OR
+        // year must be divisible by 100 with no residual AND
+        // year must be divisible by 400 with residual
+
     }
 
     //todo Task 10
@@ -207,13 +224,17 @@ public class App {
         int number = scan.nextInt();
         System.lineSeparator();
 
-        int a = number / 100;
-        int b = number / 10 % 10;
-        int c = number % 10;
+        // Console input for value of number
+
+        int a = number / 100;       // getting the hundreds digit
+        int b = number / 10 % 10;   // getting the tens digit
+        int c = number % 10;        // getting the units digit
 
         number = a + 10 * b + 100 * c;
+        // multiplying c with 100, b with 10 and adding a to receive the transposed number
 
         System.out.println(number);
+        //Console output for the transposed number
 
     }
 
